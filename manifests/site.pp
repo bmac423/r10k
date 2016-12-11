@@ -1,3 +1,3 @@
 class { 'motd':
-  content => "Yeaaaahhh Boooooyy, this is your ${::environment} node."
+  content => "This is your ${settings::environment} node."
 }
