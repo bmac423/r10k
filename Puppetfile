@@ -1,5 +1,8 @@
 # module for demo
 mod 'puppetlabs/motd'
+mod 'ghoneycutt/common'
+mod 'ghoneycutt/ssh'
+mod 'puppetlabs/firewall'
 
 # r10k module and deps
 mod 'croddy/make'
